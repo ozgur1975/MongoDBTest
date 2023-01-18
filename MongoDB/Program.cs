@@ -9,5 +9,5 @@ var t1 = new test1();
 
 Console.WriteLine("Hello, World!");
 
-var t2 = new transactionmongo();
-await t2.startTrn();
+//var t2 = new transactionmongo();
+//await t2.startTrn();
