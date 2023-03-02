@@ -26,7 +26,7 @@ namespace MongoDB
 
         public async Task AtlasTest()
         {
-            var settings = MongoClientSettings.FromConnectionString("mongodb+srv://yurtseverozgur:oZ19751975@appcluster.cziqwqm.mongodb.net/?retryWrites=true&w=majority");
+            var settings = MongoClientSettings.FromConnectionString("mongodb+srv://yurtseverozgur:<password>@appcluster.cziqwqm.mongodb.net/?retryWrites=true&w=majority");
             settings.ServerApi = new ServerApi(ServerApiVersion.V1);
             var client = new MongoClient(settings);
             var database = client.GetDatabase("test");
