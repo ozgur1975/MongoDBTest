@@ -5,7 +5,8 @@ using MongoDB;
 
 
 var t1 = new test1();
- await t1.CreateDocument();
+await t1.AtlasTest();  // atlas üzerinden yapıyor
+ await t1.CreateDocument(); // local veritabanından yapıyor
 
 Console.WriteLine("Hello, World!");
 
